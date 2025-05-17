@@ -93,14 +93,14 @@ export default function Home() {
                   A simple calculator built with HTML, CSS, and JavaScript.
                 </p>
                 <div className="flex gap-4">
-                  {/*<Link 
-                    href="https://pacheco0.github.io/Calculadora/" 
+                  <Link 
+                    href="https://calculatorfpv.web.app/" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`font-semibold ${isLight ? "text-blue-600 hover:underline" : "text-blue-400 hover:text-blue-300"}`}
                   >
                     View Demo
-                  </Link>*/}
+                  </Link>
                   <Link 
                     href="https://github.com/pacheco0/Calculadora" 
                     target="_blank"
@@ -130,14 +130,14 @@ export default function Home() {
                   A currency converter built with HTML, CSS, and JavaScript.
                 </p>
                 <div className="flex gap-4">
-                  {/*<Link 
-                    href="https://fernandopacheco1.github.io/Conversor-de-Monedas/" 
+                  <Link 
+                    href="https://currency-convertorfpv.web.app/" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`font-semibold ${isLight ? "text-blue-600 hover:underline" : "text-blue-400 hover:text-blue-300"}`}
                   >
                     View Demo
-                  </Link>*/}
+                  </Link>
                   <Link 
                     href="https://github.com/pacheco0/Currency" 
                     target="_blank"
