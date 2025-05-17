@@ -166,14 +166,14 @@ export default function Home() {
                   A website built with HTML, CSS, and JavaScript.
                 </p>
                 <div className="flex gap-4">
-                  {/*<Link 
-                    href="https://fernandopacheco1.github.io/Clima/" 
+                  <Link 
+                    href="https://webclimafpv.web.app/" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`font-semibold ${isLight ? "text-blue-600 hover:underline" : "text-blue-400 hover:text-blue-300"}`}
                   >
                     View Demo
-                  </Link>*/}
+                  </Link>
                   <Link 
                     href="https://github.com/pacheco0/Clima/tree/main/clima" 
                     target="_blank"
