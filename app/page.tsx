@@ -46,11 +46,11 @@ export default function Home() {
             {/* Profile picture */}
             <div className="relative h-64 w-64 mx-auto">
               <Image
-                src="/perfil.jpg"
+                src="./perfil.jpg"
                 alt="Profile"
                 fill
                 className={`rounded-full object-cover border-4 ${isLight ? "border-blue-400" : "border-blue-400/50"}`}
-                priority
+                unoptimized
               />
             </div>
           </div>
@@ -81,12 +81,12 @@ export default function Home() {
             <div className={`rounded-lg overflow-hidden shadow-lg border ${isLight ? "bg-white border-blue-100" : "backdrop-blur-sm bg-white/5 border-blue-400/20"}`}>
               <div className={`relative h-48 flex items-center justify-center ${isLight ? "bg-gray-100" : "bg-gray-900/50"}`}>
                 <Image
-                  src="/calculadora.png"
+                  src="./calculadora.png"
                   alt="Project 1"
                   width={400}
                   height={192}
                   className="object-contain w-full h-full"
-                  priority
+                  unoptimized
                 />
               </div>
               <div className="p-6">
@@ -119,12 +119,12 @@ export default function Home() {
             <div className={`rounded-lg overflow-hidden shadow-lg border ${isLight ? "bg-white border-blue-100" : "backdrop-blur-sm bg-white/5 border-blue-400/20"}`}>
               <div className={`relative h-48 flex items-center justify-center ${isLight ? "bg-gray-100" : "bg-gray-900/50"}`}>
                 <Image
-                  src="/currency-convertor.png"
+                  src="./currency-convertor.png"
                   alt="Project 2"
                   width={400}
                   height={192}
                   className="object-contain w-full h-full"
-                  priority
+                  unoptimized
                 />
               </div>
               <div className="p-6">
@@ -156,12 +156,12 @@ export default function Home() {
             <div className={`rounded-lg overflow-hidden shadow-lg border ${isLight ? "bg-white border-blue-100" : "backdrop-blur-sm bg-white/5 border-blue-400/20"}`}>
               <div className={`relative h-48 flex items-center justify-center ${isLight ? "bg-gray-100" : "bg-gray-900/50"}`}>
                 <Image
-                  src="/clima.png"
+                  src="./clima.png"
                   alt="Project 3"
                   width={400}
                   height={192}
                   className="object-contain w-full h-full"
-                  priority
+                  unoptimized
                 />
               </div>
               <div className="p-6">
