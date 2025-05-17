@@ -50,6 +50,7 @@ export default function Home() {
                 alt="Profile"
                 fill
                 className={`rounded-full object-cover border-4 ${isLight ? "border-blue-400" : "border-blue-400/50"}`}
+                priority
               />
             </div>
           </div>
@@ -85,6 +86,7 @@ export default function Home() {
                   width={400}
                   height={192}
                   className="object-contain w-full h-full"
+                  priority
                 />
               </div>
               <div className="p-6">
@@ -122,6 +124,7 @@ export default function Home() {
                   width={400}
                   height={192}
                   className="object-contain w-full h-full"
+                  priority
                 />
               </div>
               <div className="p-6">
@@ -158,6 +161,7 @@ export default function Home() {
                   width={400}
                   height={192}
                   className="object-contain w-full h-full"
+                  priority
                 />
               </div>
               <div className="p-6">
