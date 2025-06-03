@@ -226,6 +226,42 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <div className={`rounded-lg overflow-hidden shadow-lg border ${isLight ? "bg-white border-blue-100" : "backdrop-blur-sm bg-white/5 border-blue-400/20"}`}>
+              <div className={`relative h-48 flex items-center justify-center ${isLight ? "bg-gray-100" : "bg-gray-900/50"}`}>
+                <Image
+                  src="./pokeguessgame.png"
+                  alt="Project 5"
+                  width={400}
+                  height={192}
+                  className="object-contain w-full h-full"
+                  unoptimized
+                />
+              </div>
+              <div className="p-6">
+                <h3 className={`text-xl font-bold mb-2 ${isLight ? "text-gray-900" : "text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]"}`}>Pokemon Guess Game</h3>
+                <p className={`mb-4 ${isLight ? "text-gray-700" : "text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]"}`}>
+                  A Pokemon Guess Game built with React.
+                </p>
+                <div className="flex gap-4">
+                  <Link 
+                    href="https://pokeguessfpv.web.app/" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`font-semibold ${isLight ? "text-blue-600 hover:underline" : "text-blue-400 hover:text-blue-300"}`}
+                  >
+                    View Demo
+                  </Link>
+                  <Link 
+                    href="https://github.com/pacheco0/pokeguess" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`font-semibold ${isLight ? "text-blue-600 hover:underline" : "text-blue-400 hover:text-blue-300"}`}
+                  >
+                    Source Code
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
