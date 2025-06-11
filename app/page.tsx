@@ -63,7 +63,7 @@ export default function Home() {
           <h2 className={`text-3xl font-bold text-center mb-12 ${isLight ? "text-black drop-shadow-none" : "text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]"}`}>Skills</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             {/* Each skill is a card */}
-            {['JavaScript', 'TypeScript', 'React', 'Next.js', 'HTML', 'CSS'].map((skill) => (
+            {['JavaScript', 'Tailwind', 'React', 'Next.js', 'HTML/CSS', 'Git/Github'].map((skill) => (
               <div key={skill} className={`p-4 rounded-lg text-center transition border font-semibold ${isLight ? "bg-white text-gray-800 border-blue-100" : "backdrop-blur-sm bg-white/5 text-white border-blue-400/20 drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]"}`}>
                 {skill}
               </div>
